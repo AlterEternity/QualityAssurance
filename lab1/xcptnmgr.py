@@ -2,7 +2,7 @@ import json
 
 
 class IConfigGetter:
-    def __init__(self, config_file=None):
+    def __init__(self, config_file='config.json'):
         self.config_file = config_file
 
     def get_critical_exception_list(self):
